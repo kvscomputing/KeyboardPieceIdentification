@@ -17,15 +17,15 @@ for x in arr_txt:
     df = pd.read_csv(file)
     arr = df.to_numpy()
     neuron = 0
-    if composer=="Bach":
+    if composer=="['Bach']":
         neuron = 0
-    if composer=="Beethoven":
+    if composer=="['Beethoven']":
         neuron = 1
-    if composer=="Chopin":
+    if composer=="['Chopin']":
         neuron = 2
-    if composer=="Debussy":
+    if composer=="['Debussy']":
         neuron = 3
-    if composer=="Haydn":
+    if composer=="['Haydn']":
         neuron = 4
 
     if (counter % 10 == 8):
