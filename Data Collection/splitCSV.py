@@ -1,6 +1,6 @@
 import os
 
-def split(composer, filehandler, delimiter=',', row_limit=500,
+def split(composer, filehandler, delimiter=',', row_limit=int(input("Enter your row limit: ")),
           output_name_template='SPL_%s.csv', output_path=input("Enter file path for your splits: "), keep_headers=True):
     import csv
     output_name_template = composer+'_SPL_%s.csv'
