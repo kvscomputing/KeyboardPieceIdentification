@@ -1,7 +1,5 @@
 from pathlib import Path
-import time
 import os
-
 
 def convertFiles(path, composer):
     path = path + composer
