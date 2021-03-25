@@ -10,8 +10,8 @@ def convertFiles(path, composer):
     for x in arr_txt:
         p = path + x[:-4]+".bat"
         myBat = open(p,'w+')
-        c = input("Enter file path to Midicsv")+" "+x+" "+x[:-4]+".csv"
+        c = input("Enter file path to Midicsv: ")+" "+x+" "+x[:-4]+".csv"
         myBat.write(c)
         myBat.close()
 
-convertFiles(input("Enter full path"), input("Enter composer's specific folder path: "))
+convertFiles(input("Enter full path: "), input("Enter composer's specific folder path: "))
