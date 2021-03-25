@@ -3,7 +3,7 @@ import os
 composer = input("enter a composer + path: ")
 just_name = input("enter composer: ")
 name = [just_name]
-path = input("Enter full path") + composer
+path = input("Enter full path A: ") + composer
 arr_txt = [x for x in os.listdir(path) if x.endswith(".csv")]
 print(arr_txt)
 for x in arr_txt:
