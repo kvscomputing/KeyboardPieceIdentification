@@ -14,4 +14,4 @@ def convertFiles(path, composer):
         myBat.write(c)
         myBat.close()
 
-convertFiles(input("Enter full path: "), input("Enter composer's specific folder path: "))
+convertFiles(input("Enter full path A: "), input("Enter composer's folder path: "))
