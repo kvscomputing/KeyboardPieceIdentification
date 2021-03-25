@@ -8,10 +8,5 @@ for x in arr_txt:
     reader = csv.reader(file)
     lines = sum(1 for row in reader)
     file.close()
-    if(lines < 501):
+    if(lines < int(input("Enter the row limit: "))):
         os.remove(x)
-    
-        
-        
-    
-
